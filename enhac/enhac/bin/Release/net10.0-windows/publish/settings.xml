@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SettingsData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AppSettings>
+    <Theme>Dark</Theme>
+    <PrimaryColorArgb>-12361234</PrimaryColorArgb>
+    <SecondaryColorArgb>-11744784</SecondaryColorArgb>
+    <Language>English</Language>
+    <ClearClipboardOnExit>true</ClearClipboardOnExit>
+    <PasswordCacheTimeout>300</PasswordCacheTimeout>
+    <ShowPasswordStrength>true</ShowPasswordStrength>
+    <DefaultOutputFolder />
+    <OverwriteWithoutPrompt>false</OverwriteWithoutPrompt>
+    <MaxFileSizeMB>2048</MaxFileSizeMB>
+    <EnableLogging>true</EnableLogging>
+    <LogFilePath>encryption_log.txt</LogFilePath>
+  </AppSettings>
+  <EncryptionSettings>
+    <Algorithm>AES128</Algorithm>
+    <CipherMode>CBC</CipherMode>
+    <KeySize>256</KeySize>
+    <SaltSize>256</SaltSize>
+    <Iterations>100000</Iterations>
+    <BufferSize>8192</BufferSize>
+    <Padding>PKCS7</Padding>
+    <PreserveFolderStructure>false</PreserveFolderStructure>
+    <DeleteOriginalFile>false</DeleteOriginalFile>
+    <AutoGenerateName>false</AutoGenerateName>
+    <AddTimestamp>false</AddTimestamp>
+    <CompressBeforeEncrypt>false</CompressBeforeEncrypt>
+    <VerifyAfterEncryption>true</VerifyAfterEncryption>
+    <DefaultEncryptionExtension>.encrypted</DefaultEncryptionExtension>
+  </EncryptionSettings>
+</SettingsData>
